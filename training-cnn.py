@@ -140,8 +140,6 @@ plt.ylabel('loss')
 plt.xlabel('epoch')
 plt.legend(['train', 'validation'], loc='upper left')
 axes = plt.gca()
-#axes.set_xlim([0,5])
-#axes.set_ylim([0,1])
 plt.show()
 
 #calculate test loss
